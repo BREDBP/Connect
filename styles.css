@@ -1,0 +1,81 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 2160px;
+	 height: 1224px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Calque0 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 2160px;
+	 height: 1224px;
+	 z-index:1;
+} 
+
+ #id 
+{ 
+	 left: 1020px; 
+	 top: 211px; 
+	 position: absolute; 
+	 width: 301px;
+	 height: 47px;
+	 z-index:2;
+} 
+
+ #mdp 
+{ 
+	 left: 1020px; 
+	 top: 412px; 
+	 position: absolute; 
+	 width: 301px;
+	 height: 47px;
+	 z-index:3;
+} 
+
+ #valider 
+{ 
+	 left: 1045px; 
+	 top: 582px; 
+	 position: absolute; 
+	 width: 179px;
+	 height: 60px;
+	 z-index:4;
+} 
+
+
+ #ex 
+{ 
+font-size: 1.1em;
+line-height: 1.8em;
+padding: 0 0.6em;
+font-weight: 100;
+border: 1px solid #ccc;
+color: #ccc;
+
+} 
+
+.image_supprimer_input
+{
+background-image:url("images/valider.png");
+	 left: 1045px; 
+	 top: 582px; 
+	 position: absolute; 
+	 width: 179px;
+	 height: 60px;
+	 z-index:4;
+	 border:none;
+}

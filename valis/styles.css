@@ -1,0 +1,70 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1423px;
+	 height: 1062px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Calque0 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1423px;
+	 height: 1062px;
+	 z-index:1;
+} 
+
+ #Rectangle1 
+{ 
+	 left: 753px; 
+	 top: 563px; 
+	 position: absolute; 
+	 width: 231px;
+	 height: 40px;
+	 z-index:2;
+} 
+
+ #layer_3 
+{ 
+	 left: 830px; 
+	 top: 577px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 13px;
+	 z-index:3;
+} 
+
+ #SMS 
+{ 
+	 left: 795px; 
+	 top: 481px; 
+	 position: absolute; 
+	 width: 218px;
+	 height: 33px;
+	 z-index:4;
+} 
+
+
+.image_supprimer_input
+{
+background-image:url("images/suivant.png");
+	 left: 753px; 
+	 top: 563px; 
+	 position: absolute; 
+	 width: 231px;
+	 height: 40px;
+	 z-index:2;
+	 border:none;
+}
